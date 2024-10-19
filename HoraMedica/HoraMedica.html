@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reserva Médica</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 0;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="thankyou.html" method="post">
+        <h1>FORMULARIO</h1>
+        
+        <label for="nombre">NOMBRE</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+        
+        <label for="direccion">DIRECCIÓN</label>
+        <input type="text" id="direccion" placeholder="Ingrese su direccion" required>
+        
+        <label for="especialidad">Especialidad Médica:</label>
+        <select id="especialidad" name="Elija la especialidad médica" required>
+            <option value="cardiologia">Cardiología</option>
+            <option value="dermatologia">Dermatología</option>
+            <option value="ginecologia">Ginecología</option>
+            <option value="neurologia">Neurología</option>
+            <option value="pediatria">Pediatría</option>
+        
+        <label for="fecha">FECHA</label>
+        <input type="date" id="fecha" name="fecha" required>
+        
+        <label for="hora">HORA</label>
+        <input type="time" id="hora" name="hora" required>
+        
+        <label for="correo">CORREO</label>
+        <input type="email" id="correo" placeholder="Ingrese su correo" required>
+        
+        <input type="submit" value="CONFIRMAR">
+    </form>
+
+</body>
+</html>
