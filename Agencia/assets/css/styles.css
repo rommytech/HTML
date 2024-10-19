@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: Verdana, sans-serif;
+}
+
+/* Estilos para el formulario de búsqueda */
+.search-form-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    color: #051B54;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombreado en el borde externo */
+}
+
+.row-align-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.small-input {
+    max-width: 100px;
+}
+
+/* Estilos sin margen ni padding */
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.row-eq-height {
+    display: flex;
+}
+
+.custom-container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-bg {
+    background-color: #62dad3;
+    display: flex;
+    align-items: center;
+}
+
+.custom-text {
+    padding: 20px;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
