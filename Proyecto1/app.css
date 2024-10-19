@@ -1,0 +1,34 @@
+/* body {
+    background-color: gold!important;
+} */
+ 
+/* si tiene puntito al inicio es una clase */
+.enlace {
+    font-size: 16px;
+    text-decoration: none;
+}
+.enlace:hover {
+    background-color: #ec3650;
+}
+.querty {
+    font-size: 18px;
+    text-decoration: none;
+}
+.qwerty:hover {
+    background-color: #fbd7dc;
+} 
+/* Si tiene # al inicio es un id */
+
+@media only screen and (max-width: 480px) {
+    /* Pantallas de 350px, 450px, 479px */
+    body {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Pantallas tipo tablet */
+    body {
+        background-color: red;
+    }
+}
