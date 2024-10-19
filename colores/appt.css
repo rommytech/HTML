@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.table-container {
+    border: 1px solid #000000; /* Borde negro alrededor del contenedor */
+    padding: 2px; /* Espacio para el borde */
+    background-color: #f0f0f0; /* Asegura que el color de fondo sea uniforme */
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+td {
+    height: 25px;
+    text-align: left; /* Ajusta el texto hacia la izquierda */
+    padding-left: 1px; /* Añade un poco de espacio a la izquierda */
+    vertical-align: middle;
+    border: 2px solid #FFFFFF; /* Color del borde blanco y grosor */
+    font-weight: bold;
+    color: #000;
+}
+
+.rojo { background-color: #FF0000; width: 80px; }
+.blanco { background-color: #FFFFFF; width: 80px; }
+.verde { background-color: #008000; width: 100px; }
+.gris { background-color: #808080; width: 80px; }
+.cafe { background-color: #A52A2A; width: 80px; }
+.azul { background-color: #0000FF; width: 80px; }
+.violeta { background-color: #EE82EE; width: 160px; } /* Colspan de 2 */
+.rosado { background-color: #FFC0CB; width: 80px; }
+.amarillo { background-color: #FFFF00; width: 80px; }
+.turquesa { background-color: #40E0D0; width: 80px; }
+.naranjo { background-color: #FFA500; width: 80px; }
+.purpura { background-color: #800080; width: 80px; }
+.negro { background-color: #000000; color: #FFFFFF; width: 80px; }
